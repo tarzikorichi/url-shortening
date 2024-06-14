@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+  --Light-Grayish-Cyan:hsl(180, 52%, 96%); /*(Background)*/
+  --Light-Grayish-Cyan:hsl(180, 31%, 95%); /*(Filter Tablets)*/
+  --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+  --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+}
+
+@layer base{
+  @font-face {
+      font-family: "League Spartan", sans-serif;
+      src: url('./assets/font/LeagueSpartan-Bold.ttf');
+      font-display:swap;
+      font-style: normal;
+      font-weight: 700;
+  }
+  @font-face {
+      font-family: "League Spartan", sans-serif;
+      src: url('./assets/font/LeagueSpartan-Medium.ttf');
+      font-display:swap;
+      font-weight: 500;
+  }
+}

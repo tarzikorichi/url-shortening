@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+:root{
+    --Moderateblue: hsl(238, 40%, 52%);
+    --SoftRed: hsl(358, 79%, 66%);
+    --LightgrayishBlue: hsl(239, 57%, 85%);
+    --Palered: hsl(357, 100%, 86%);
+
+    --DarkBlue: hsl(212, 24%, 26%);
+    --GrayishBlue: hsl(211, 10%, 45%);
+    --LightGray: hsl(223, 19%, 93%);
+    --VeryLightGray: hsl(228, 33%, 97%);
+    --White: hsl(0, 0%, 100%);
+}
+
+@layer base{
+    @font-face {
+        font-family: "Rubik", sans-serif;
+        src: url('./assets/font/Rubik-Regular.ttf');
+        font-display:swap;
+        font-style: normal;
+        font-weight: 400;
+    }
+    @font-face {
+        font-family: "Rubik", sans-serif;
+        src: url('./assets/font/Rubik-Medium.ttf');
+        font-display:swap;
+        font-weight: 500;
+    }
+    @font-face {
+        font-family: "Rubik", sans-serif;
+        src: url('./assets/font/Rubik-Bold.ttf');
+        font-display:swap;
+        font-weight: 700;
+    }
+  }

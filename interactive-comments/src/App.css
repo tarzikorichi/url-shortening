@@ -1,0 +1,8 @@
+body{
+    @apply bg-[--VeryLightGray]
+}
+
+
+.card{
+    @apply bg-[--White] p-4 mt-8 rounded-md shadow-sm
+}
